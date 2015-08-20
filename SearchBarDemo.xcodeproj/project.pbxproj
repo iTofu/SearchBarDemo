@@ -40,6 +40,8 @@
 		B3A26F081B85A61300612F0F /* SearchBarDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchBarDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3A26F0D1B85A61300612F0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3A26F0E1B85A61300612F0F /* SearchBarDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchBarDemoTests.m; sourceTree = "<group>"; };
+		B3A26F181B85B0BF00612F0F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		B3A26F191B85B0BF00612F0F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +88,6 @@
 				B3A26EF91B85A61200612F0F /* ViewController.h */,
 				B3A26EFA1B85A61200612F0F /* ViewController.m */,
 				B3A26EFC1B85A61200612F0F /* Main.storyboard */,
-				B3A26EFF1B85A61200612F0F /* Images.xcassets */,
-				B3A26F011B85A61200612F0F /* LaunchScreen.xib */,
 				B3A26EF21B85A61200612F0F /* Supporting Files */,
 			);
 			path = SearchBarDemo;
@@ -96,6 +96,8 @@
 		B3A26EF21B85A61200612F0F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B3A26EFF1B85A61200612F0F /* Images.xcassets */,
+				B3A26F011B85A61200612F0F /* LaunchScreen.xib */,
 				B3A26EF31B85A61200612F0F /* Info.plist */,
 				B3A26EF41B85A61200612F0F /* main.m */,
 			);
@@ -248,6 +250,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				B3A26EFD1B85A61200612F0F /* Base */,
+				B3A26F181B85B0BF00612F0F /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				B3A26F021B85A61200612F0F /* Base */,
+				B3A26F191B85B0BF00612F0F /* zh-Hans */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -350,6 +354,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SearchBarDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -360,6 +365,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SearchBarDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
